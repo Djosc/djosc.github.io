@@ -19,6 +19,9 @@ const ProjectSection = ({
 	liveLink,
 	githubLinkLabel,
 	githubLink,
+	caseStudyLinkLabel,
+	caseStudyLink,
+	caseStudyBool,
 	image,
 	reverse,
 	dark,
@@ -40,6 +43,11 @@ const ProjectSection = ({
 		window.open(url, '_blank');
 	};
 
+	const openCaseStudy = () => {
+		const url = caseStudyLink;
+		window.open(url, '_blank');
+	};
+
 	return (
 		<Section id="projects" dark={dark}>
 			<div data-aos={dataAOS}>
@@ -57,6 +65,13 @@ const ProjectSection = ({
 								{githubLinkLabel}
 							</Button>
 						</BtnWrap>
+						{caseStudyBool ? (
+							<Button to="/" onClick={openCaseStudy} big="true" primary={primary}>
+								{caseStudyLinkLabel}
+							</Button>
+						) : (
+							<></>
+						)}
 					</ColumnLeft>
 					<ColumnRight reverse={reverse}>
 						<img src={image} alt="art" />

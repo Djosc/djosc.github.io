@@ -3,6 +3,8 @@
 import ImageOne from '../images/build.svg';
 import ImageTwo from '../images/data.svg';
 
+import caseStudy from '../files/pdf link test.pdf';
+
 export const ProjectData = {
 	heading: 'Lorem Ipsum',
 	paragraphOne:
@@ -12,6 +14,9 @@ export const ProjectData = {
 	liveLink: 'https://myflix-davidcaldwell.netlify.app/',
 	githubLinkLabel: 'Github Repo',
 	githubLink: 'https://github.com/Djosc/myFlix-client',
+	caseStudyLinkLabel: 'Case Study PDF',
+	caseStudyLink: caseStudy,
+	caseStudyBool: true,
 	image: ImageOne,
 	reverse: false,
 	dark: true,
@@ -27,6 +32,7 @@ export const ProjectDataTwo = {
 	liveLink: '',
 	githubLinkLabel: 'Github Repo',
 	githubLink: '',
+	caseStudyBool: false,
 	image: ImageTwo,
 	reverse: true,
 	dark: false,
