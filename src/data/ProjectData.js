@@ -3,7 +3,7 @@
 import ImageOne from '../images/build.svg';
 import ImageTwo from '../images/data.svg';
 
-import caseStudy from '../files/pdf link test.pdf';
+import caseStudy from '../files/myFlix Case Study.pdf';
 
 export const ProjectData = {
 	heading: 'Lorem Ipsum',
