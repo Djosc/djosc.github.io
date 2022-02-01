@@ -7,8 +7,8 @@ export const MainContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 	padding: 0 30px;
-	/* height: 1100px; */
-	height: 100vh;
+	top: -100px;
+	height: calc(100vh - 100px);
 	position: relative;
 	/* z-index: 1; */
 `;
@@ -43,7 +43,7 @@ export const ImageBg = styled.img`
 
 export const MainContent = styled.div`
 	z-index: 3;
-	top: 30%;
+	top: 35%;
 	left: 20%;
 	max-width: 1200px;
 	position: absolute;
@@ -61,29 +61,29 @@ export const MainContent = styled.div`
 
 export const MainH1 = styled.h1`
 	color: #fff;
-	font-size: 52px;
+	font-size: 72px;
 	text-align: center;
 
 	@media screen and (max-width: 768px) {
-		font-size: 34px;
+		font-size: 48px;
 	}
 
 	@media screen and (max-width: 480px) {
-		font-size: 32px;
+		font-size: 44px;
 	}
 `;
 
 export const MainH2 = styled.h1`
 	color: #000;
-	font-size: 52px;
+	font-size: 72px;
 	text-align: center;
 
 	@media screen and (max-width: 768px) {
-		font-size: 34px;
+		font-size: 48px;
 	}
 
 	@media screen and (max-width: 480px) {
-		font-size: 32px;
+		font-size: 44px;
 	}
 `;
 
