@@ -34,6 +34,7 @@ export const ColumnLeft = styled.div`
 	}
 
 	p {
+		font-size: 19px;
 		margin-bottom: 2rem;
 		max-width: 60vw;
 		color: ${({ dark }) => (dark ? '#fff' : '#000')};
