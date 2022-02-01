@@ -21,6 +21,6 @@ export const Button = styled(Link)`
 	margin: 0rem 0.5rem;
 
 	&:hover {
-		transform: translateY(-2px);
+		transform: scale(1.07);
 	}
 `;

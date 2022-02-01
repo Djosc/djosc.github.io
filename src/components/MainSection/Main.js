@@ -23,12 +23,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Main = () => {
-	const [hover, setHover] = useState(false);
-
-	const onHover = () => {
-		setHover(!hover);
-	};
-
 	useEffect(() => {
 		AOS.init({ duration: 5000 });
 	}, []);
@@ -59,10 +53,11 @@ const Main = () => {
 								duration={500}
 								primary={'true'}
 								big={'true'}
-								onMouseEnter={onHover}
-								onMouseLeave={onHover}
 							>
-								See My Projects {hover ? <RightArrow /> : <></>}
+								See My Projects
+							</Button>
+							<Button big={true} primary={true}>
+								View My Resume (PDF)
 							</Button>
 						</MainBtnWrap>
 					</div>

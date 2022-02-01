@@ -96,7 +96,6 @@ export const MainPortrait = styled.img`
 export const MainBtnWrap = styled.div`
 	margin-top: 32px;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	cursor: pointer;
 `;
