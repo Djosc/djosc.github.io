@@ -7,12 +7,12 @@ export const Section = styled.section`
 	padding: 4rem 0rem;
 `;
 export const Container = styled.div`
-	padding: 2rem calc((100vw - 1300px) / 2);
+	padding: 2rem calc((100vw - 1500px) / 2);
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1280px) {
 		grid-template-columns: 1fr;
 
 		grid-template-rows: 1fr;
@@ -35,7 +35,14 @@ export const ColumnLeft = styled.div`
 
 	p {
 		margin-bottom: 2rem;
+		max-width: 60vw;
 		color: ${({ dark }) => (dark ? '#fff' : '#000')};
+	}
+
+	@media screen and (max-width: 1280px) {
+		justify-content: center;
+		text-align: center;
+		align-items: center;
 	}
 `;
 
@@ -46,18 +53,23 @@ export const ColumnRight = styled.div`
 	justify-content: center;
 	align-items: center;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1280px) {
 		order: ${({ reverse }) => (reverse ? '2' : '1')};
 	}
 
 	img {
-		width: 100%;
-		height: 100%;
+		width: 700px;
+		height: 500px;
 		/* object-fit: cover; */
 
+		@media screen and (max-width: 1280px) {
+			width: 600px;
+			height: 400px;
+		}
+
 		@media screen and (max-width: 768px) {
-			width: 90%;
-			height: 70vh;
+			width: 450px;
+			height: 400px;
 		}
 	}
 `;

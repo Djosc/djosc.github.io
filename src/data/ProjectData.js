@@ -1,12 +1,12 @@
 // import ImageOne from '../images/iteration.svg';
 // import ImageTwo from '../images/data-processing.svg';
-import ImageOne from '../images/build.svg';
-import ImageTwo from '../images/data.svg';
+import ImageOne from '../images/myFlix-homepage-scrnshot.png';
+import ImageTwo from '../images/meet-main-scrnshot.png';
 
 import caseStudy from '../files/myFlix Case Study.pdf';
 
 export const ProjectData = {
-	heading: 'Lorem Ipsum',
+	heading: 'myFlix',
 	paragraphOne:
 		'Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsum',
 
@@ -24,14 +24,14 @@ export const ProjectData = {
 };
 
 export const ProjectDataTwo = {
-	heading: 'Lorem Ipsum',
+	heading: 'Meet',
 	paragraphOne:
 		'Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsum',
 
 	liveLinkLabel: 'Live Demo',
-	liveLink: '',
+	liveLink: 'https://djosc.github.io/meet/',
 	githubLinkLabel: 'Github Repo',
-	githubLink: '',
+	githubLink: 'https://github.com/Djosc/meet',
 	caseStudyBool: false,
 	image: ImageTwo,
 	reverse: true,
