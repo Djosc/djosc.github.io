@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
 			<Nav scrollNav={scrollNav}>
 				<NavbarContainer>
 					<MobileIcon onClick={toggle}>
-						<Bars />
+						<Bars scrollNav={scrollNav} />
 					</MobileIcon>
 					<NavMenu>
 						<NavItem>

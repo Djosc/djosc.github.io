@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
-import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 export const SidebarContainer = styled.div`
 	position: fixed;
@@ -51,16 +51,35 @@ export const SidebarLink = styled(LinkS)`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	text-decoration: none;
 	list-style: none;
-	transition: 0.2 ease-in-out;
+	transition: 0.3 all ease-in-out;
 	color: #fff;
 	cursor: pointer;
 
 	&:hover {
 		color: #ddd;
-		transition: 0.2 ease-in-out;
+	}
+`;
+
+export const Gh = styled(BsGithub)`
+	margin: 1rem;
+	color: #fff;
+
+	&:hover {
+		color: #ddd;
+		transform: scale(1.1);
+	}
+`;
+
+export const Li = styled(BsLinkedin)`
+	margin: 1rem;
+	color: #fff;
+
+	&:hover {
+		color: #ddd;
+		transform: scale(1.1);
 	}
 `;
 
@@ -69,10 +88,11 @@ export const SideBtnWrap = styled.div`
 	justify-content: center;
 `;
 
-export const SidebarBtn = styled(LinkR)`
+export const SidebarBtn = styled.button`
 	background: #fff;
 	white-space: nowrap;
-	padding: 16px 64px;
+	padding: 16px 36px;
+	margin-top: 1rem;
 	color: #000;
 	font-size: 16px;
 	outline: none;

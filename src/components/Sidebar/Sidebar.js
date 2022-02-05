@@ -8,7 +8,19 @@ import {
 	SidebarLink,
 	SideBtnWrap,
 	SidebarBtn,
+	Gh,
+	Li,
 } from './SidebarElements';
+
+const openGitHub = () => {
+	const url = 'https://github.com/Djosc';
+	window.open(url, '_blank');
+};
+
+const openLinkedIn = () => {
+	const url = 'https://www.linkedin.com/in/david-caldwell-4663b9205/';
+	window.open(url, '_blank');
+};
 
 const Sidebar = ({ isOpen, toggle }) => {
 	return (
@@ -42,9 +54,13 @@ const Sidebar = ({ isOpen, toggle }) => {
 						<SidebarLink to="contact" onClick={toggle}>
 							Contact
 						</SidebarLink>
+						<SidebarLink>
+							<Gh onClick={openGitHub} />
+							<Li onClick={openLinkedIn} />
+						</SidebarLink>
 					</SidebarMenu>
 					<SideBtnWrap>
-						<SidebarBtn to="/">Empty</SidebarBtn>
+						<SidebarBtn>View My Resume (PDF)</SidebarBtn>
 					</SideBtnWrap>
 				</SidebarWrapper>
 			</SidebarContainer>

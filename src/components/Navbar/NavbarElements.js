@@ -35,14 +35,17 @@ export const MobileIcon = styled.div`
 		position: absolute;
 		top: 0;
 		right: 0;
-		transform: translate(-100%, 60%);
+		transform: translate(-100%, 85%);
 		font-size: 1.8rem;
 		cursor: pointer;
 		color: #fff;
+		transition: 0.3s all ease-in-out;
 	}
 `;
 
-export const Bars = styled(FaBars)``;
+export const Bars = styled(FaBars)`
+	color: ${({ scrollNav }) => (scrollNav ? '#fff' : '#000')};
+`;
 
 export const NavMenu = styled.ul`
 	display: flex;
