@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.91d6c057.css",
-    "main.js": "/portfolio-site/static/js/main.dbc22bc8.js",
+    "main.js": "/portfolio-site/static/js/main.e9365ea7.js",
     "static/media/video1.mp4": "/portfolio-site/static/media/video1.99baa52337d8e85226aa.mp4",
     "static/media/myFlix-homepage-scrnshot.png": "/portfolio-site/static/media/myFlix-homepage-scrnshot.9eb1cd345e74f8f19b7d.png",
     "static/media/greyBg.jpg": "/portfolio-site/static/media/greyBg.b5c4b322d28f457783cb.jpg",
@@ -18,10 +18,10 @@
     "static/media/html5Icon.svg": "/portfolio-site/static/media/html5Icon.84c6adac417775a66b5529f1ae8d4572.svg",
     "static/media/css3Icon.svg": "/portfolio-site/static/media/css3Icon.9882e252f3baf8b8d57642a1384d8ba3.svg",
     "main.91d6c057.css.map": "/portfolio-site/static/css/main.91d6c057.css.map",
-    "main.dbc22bc8.js.map": "/portfolio-site/static/js/main.dbc22bc8.js.map"
+    "main.e9365ea7.js.map": "/portfolio-site/static/js/main.e9365ea7.js.map"
   },
   "entrypoints": [
     "static/css/main.91d6c057.css",
-    "static/js/main.dbc22bc8.js"
+    "static/js/main.e9365ea7.js"
   ]
 }
