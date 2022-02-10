@@ -1,4 +1,7 @@
 import React from 'react';
+
+import resumeLink from '../../files/david-caldwell-resume.pdf';
+
 import {
 	SidebarContainer,
 	CloseIcon,
@@ -20,6 +23,10 @@ const openGitHub = () => {
 const openLinkedIn = () => {
 	const url = 'https://www.linkedin.com/in/david-caldwell-4663b9205/';
 	window.open(url, '_blank');
+};
+
+const openResume = () => {
+	window.open(resumeLink, '_blank');
 };
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -60,7 +67,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 						</SidebarLink>
 					</SidebarMenu>
 					<SideBtnWrap>
-						<SidebarBtn>View My Resume (PDF)</SidebarBtn>
+						<SidebarBtn onClick={openResume}>View My Resume (PDF)</SidebarBtn>
 					</SideBtnWrap>
 				</SidebarWrapper>
 			</SidebarContainer>

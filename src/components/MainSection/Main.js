@@ -19,6 +19,8 @@ import bgImage from '../../images/greyBg.jpg';
 import portrait from '../../images/linkedin-image-redux.jpg';
 import { Button } from '../Button/Button';
 
+import resumeLink from '../../files/david-caldwell-resume.pdf';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,6 +28,10 @@ const Main = () => {
 	useEffect(() => {
 		AOS.init({ duration: 5000 });
 	}, []);
+
+	const openResume = () => {
+		window.open(resumeLink, '_blank');
+	};
 
 	return (
 		<>
@@ -56,7 +62,7 @@ const Main = () => {
 							>
 								See My Projects
 							</Button>
-							<Button big={true} primary={true}>
+							<Button big={true} primary={true} onClick={openResume}>
 								View My Resume (PDF)
 							</Button>
 						</MainBtnWrap>
