@@ -6,9 +6,9 @@ import ImageTwo from '../images/meet-main-scrnshot.png';
 import caseStudy from '../files/myFlix Case Study.pdf';
 
 export const ProjectData = {
-	heading: 'myFlix',
+	heading: 'MyFlix',
 	paragraphOne:
-		'Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsum',
+		'MyFlix allows registered and authenticated users to view and manage a selection of classic movies. This full-stack MERN application features a React.js and Redux frontend built on top on a MongoDB, Express, and Node.js backend, styled with React Bootstrap.',
 
 	liveLinkLabel: 'Live Demo',
 	liveLink: 'https://myflix-davidcaldwell.netlify.app/',
