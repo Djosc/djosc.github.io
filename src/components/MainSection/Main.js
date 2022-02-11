@@ -25,10 +25,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Main = () => {
-	useEffect(() => {
-		AOS.init({ duration: 5000 });
-	}, []);
-
 	const openResume = () => {
 		window.open(resumeLink, '_blank');
 	};
@@ -42,16 +38,15 @@ const Main = () => {
 				</MainBg>
 				<MainContent>
 					{/* <MainPortrait src={portrait} /> */}
-					{/* <div data-aos="fade-down-left"> */}
-					<MainH1>David Caldwell</MainH1>
-					{/* </div> */}
-					{/* <div data-aos="fade-down-right"> */}
-					<MainH2>Web Developer</MainH2>
-					{/* </div> */}
+					<div data-aos="fade-down-left">
+						<MainH1>David Caldwell</MainH1>
+					</div>
+					<div data-aos="fade-down-right">
+						<MainH2>Web Developer</MainH2>
+					</div>
 					<div data-aos="flip-up">
 						<MainBtnWrap>
 							<Button
-								// to="projects"
 								to="projects"
 								spy={true}
 								smooth={true}

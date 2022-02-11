@@ -29,9 +29,9 @@ const ProjectSection = ({
 	dataAOS,
 	firstSection,
 }) => {
-	useEffect(() => {
-		AOS.init({ duration: 2000 });
-	}, []);
+	// useEffect(() => {
+	// 	AOS.init({ duration: 2000 });
+	// }, []);
 
 	const openDemo = () => {
 		const url = liveLink;

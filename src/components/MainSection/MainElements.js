@@ -9,6 +9,7 @@ export const MainContainer = styled.div`
 	padding: 0 30px;
 	top: -100px;
 	height: calc(100vh - 100px);
+	width: 100%;
 	position: relative;
 	/* z-index: 1; */
 `;

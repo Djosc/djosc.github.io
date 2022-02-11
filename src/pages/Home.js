@@ -6,10 +6,15 @@ import ProjectSection from '../components/ProjectSection/ProjectSection';
 import About from '../components/AboutSection/About';
 import Footer from '../components/Footer/Footer';
 
+import AOS from 'aos';
 import { ProjectData, ProjectDataTwo } from '../data/ProjectData';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
+
+	useEffect(() => {
+		AOS.init({ duration: 2000 });
+	}, []);
 
 	const toggle = () => {
 		setIsOpen(!isOpen);
