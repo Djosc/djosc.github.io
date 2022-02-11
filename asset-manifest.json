@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.91d6c057.css",
-    "main.js": "/portfolio-site/static/js/main.4e8c9c61.js",
+    "main.js": "/portfolio-site/static/js/main.ac4c6066.js",
     "static/media/video1.mp4": "/portfolio-site/static/media/video1.99baa52337d8e85226aa.mp4",
     "static/media/myFlix-homepage-scrnshot.png": "/portfolio-site/static/media/myFlix-homepage-scrnshot.9eb1cd345e74f8f19b7d.png",
     "static/media/greyBg.jpg": "/portfolio-site/static/media/greyBg.b5c4b322d28f457783cb.jpg",
     "static/media/myFlix Case Study.pdf": "/portfolio-site/static/media/myFlix Case Study.8071bdde2a03a1fb3473.pdf",
     "static/media/linkedin-image-redux.jpg": "/portfolio-site/static/media/linkedin-image-redux.1d72258d59983d8695dd.jpg",
     "static/media/meet-main-scrnshot.png": "/portfolio-site/static/media/meet-main-scrnshot.5627be0b6db5cd045205.png",
-    "static/media/david-caldwell-resume.pdf": "/portfolio-site/static/media/david-caldwell-resume.427ac53f963121a27a87.pdf",
+    "static/media/david-caldwell-resume.pdf": "/portfolio-site/static/media/david-caldwell-resume.d4c92af70913b24b5990.pdf",
     "static/media/mongodbIcon.svg": "/portfolio-site/static/media/mongodbIcon.6d3d1850f276edfa810f91b6a64e7989.svg",
     "static/media/reactIcon.svg": "/portfolio-site/static/media/reactIcon.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/nodejsIcon.svg": "/portfolio-site/static/media/nodejsIcon.84ec8c0184f96aed84c87d0c94f9990f.svg",
@@ -19,10 +19,10 @@
     "static/media/html5Icon.svg": "/portfolio-site/static/media/html5Icon.84c6adac417775a66b5529f1ae8d4572.svg",
     "static/media/css3Icon.svg": "/portfolio-site/static/media/css3Icon.9882e252f3baf8b8d57642a1384d8ba3.svg",
     "main.91d6c057.css.map": "/portfolio-site/static/css/main.91d6c057.css.map",
-    "main.4e8c9c61.js.map": "/portfolio-site/static/js/main.4e8c9c61.js.map"
+    "main.ac4c6066.js.map": "/portfolio-site/static/js/main.ac4c6066.js.map"
   },
   "entrypoints": [
     "static/css/main.91d6c057.css",
-    "static/js/main.4e8c9c61.js"
+    "static/js/main.ac4c6066.js"
   ]
 }
