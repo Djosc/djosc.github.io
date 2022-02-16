@@ -20,9 +20,9 @@ import image5 from '../../images/nodejsIcon.svg';
 import image6 from '../../images/mongodbIcon.svg';
 
 const About = () => {
-	useEffect(() => {
-		AOS.init({ duration: 5000 });
-	}, []);
+	// useEffect(() => {
+	// 	AOS.init({ duration: 5000 });
+	// }, []);
 
 	return (
 		<>
@@ -31,9 +31,11 @@ const About = () => {
 					<AboutColumnLeft data-aos="fade-right">
 						<h1>About Me</h1>
 						<p>
-							Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-							Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-							Ipsum
+							Web Developer with 3 years development experience in the defense industry.
+							Well-versed in front-end and back-end technologies such as Javascript,
+							React, Node, Express, and MongoDb. A strong focus on planning, prototyping,
+							testing, and refining web applications. Committed to learning and using the
+							best tool for the problem at hand.
 						</p>
 					</AboutColumnLeft>
 					<AboutColumnRight data-aos="fade-left">
