@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 export const FooterContainer = styled.div`
 	background-color: #000;
 `;
 
 export const FooterWrap = styled.div`
-	padding: 4rem calc((100vw - 1500px) / 2);
+	padding: 4rem calc((100vw - 1200px) / 2);
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
@@ -52,7 +53,8 @@ export const FooterContact = styled.form`
 	width: 100%;
 	display: grid;
 	margin: 0 auto;
-	padding: 80px 32px;
+	padding: 60px 32px;
+	border-radius: 20px;
 
 	@media screen and (max-width: 400px) {
 		padding: 32px 32px;
@@ -66,12 +68,6 @@ export const FormH1 = styled.h1`
 	margin-bottom: 40px;
 `;
 
-// export const FormLabel = styled.label`
-// 	margin-bottom: 8px;
-// 	font-size: 14px;
-// 	color: #000;
-// `;
-
 export const FormInput = styled.input`
 	padding: 1rem 1rem;
 	margin-bottom: 2rem;
@@ -82,7 +78,7 @@ export const FormInputArea = styled.textarea`
 	padding: 1rem 1rem;
 	margin-bottom: 2rem;
 	border: 2px solid #000;
-	height: 300px;
+	height: 200px;
 `;
 
 export const FooterInfo = styled.div`
@@ -111,4 +107,26 @@ export const BtnWrap = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+`;
+
+export const Gh = styled(BsGithub)`
+	font-size: 50px;
+	margin: 0rem 1rem;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+`;
+
+export const Li = styled(BsLinkedin)`
+	font-size: 50px;
+	margin: 0rem 1rem;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
 `;

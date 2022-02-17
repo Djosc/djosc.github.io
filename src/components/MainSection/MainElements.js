@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import { BsArrowRight } from 'react-icons/bs';
+import { BsArrowRight, BsArrowDown } from 'react-icons/bs';
+import { style } from '@mui/system';
 
 export const MainContainer = styled.div`
 	background: #000;
@@ -101,6 +102,19 @@ export const MainBtnWrap = styled.div`
 	cursor: pointer;
 `;
 
+export const ArrowWrap = styled.div`
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	text-align: center;
+
+	p {
+		color: #fff;
+		font-size: 34px;
+	}
+`;
+
 export const DefaultArrow = styled(BsArrowRight)`
 	margin-left: 8px;
 	font-size: 20px;
@@ -109,4 +123,9 @@ export const DefaultArrow = styled(BsArrowRight)`
 export const RightArrow = styled(BsArrowRight)`
 	margin-left: 8px;
 	font-size: 20px;
+`;
+
+export const DownArrow = styled(BsArrowDown)`
+	font-size: 100px;
+	color: #fff;
 `;

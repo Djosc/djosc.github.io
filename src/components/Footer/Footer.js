@@ -14,10 +14,10 @@ import {
 	FormInputArea,
 	FormH1,
 	BtnWrap,
+	Gh,
+	Li,
 } from './FooterElements';
 
-import gitHubIcon from '../../images/githubIcon.svg';
-import linkedInIcon from '../../images/linkedinIcon.svg';
 import { Button } from '../Button/Button';
 
 const Footer = () => {
@@ -36,6 +36,12 @@ const Footer = () => {
 					<FooterInfo>
 						<h1>Need to talk to me?</h1>
 						<p>I would love to hear from you.</p>
+						<FooterLinksWrap>
+							<FooterLinkItems>
+								<Gh onClick={openGitHub} />
+								<Li onClick={openLinkedIn} />
+							</FooterLinkItems>
+						</FooterLinksWrap>
 					</FooterInfo>
 					<FooterContactWrap>
 						<FooterContact>
@@ -52,12 +58,6 @@ const Footer = () => {
 						</FooterContact>
 					</FooterContactWrap>
 				</FooterWrap>
-				<FooterLinksWrap>
-					<FooterLinkItems>
-						<FooterLink src={gitHubIcon} onClick={openGitHub}></FooterLink>
-						<FooterLink src={linkedInIcon} onClick={openLinkedIn}></FooterLink>
-					</FooterLinkItems>
-				</FooterLinksWrap>
 			</FooterContainer>
 		</>
 	);

@@ -11,17 +11,15 @@ import {
 	MainBtnWrap,
 	DefaultArrow,
 	RightArrow,
+	DownArrow,
+	ArrowWrap,
 } from './MainElements';
 
-import video from '../../videos/video1.mp4';
-// import bgImage from '../../images/black-sand.jpg';
 import bgImage from '../../images/greyBg.jpg';
-import portrait from '../../images/linkedin-image-redux.jpg';
 import { Button } from '../Button/Button';
 
 import resumeLink from '../../files/david-caldwell-resume.pdf';
 
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Main = () => {
@@ -33,11 +31,9 @@ const Main = () => {
 		<>
 			<MainContainer>
 				<MainBg>
-					{/* <VideoBg autoPlay loop muted src={video} type="video/mp4"></VideoBg> */}
 					<ImageBg src={bgImage} />
 				</MainBg>
 				<MainContent>
-					{/* <MainPortrait src={portrait} /> */}
 					<div data-aos="fade-down-left">
 						<MainH1>David Caldwell</MainH1>
 					</div>
@@ -63,6 +59,10 @@ const Main = () => {
 						</MainBtnWrap>
 					</div>
 				</MainContent>
+				{/* <ArrowWrap>
+					<DownArrow />
+					<p>About Me</p>
+				</ArrowWrap> */}
 			</MainContainer>
 		</>
 	);

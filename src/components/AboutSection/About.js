@@ -9,7 +9,6 @@ import {
 } from './AboutElements';
 
 import { Tooltip } from '@mui/material';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import image1 from '../../images/html5Icon.svg';
@@ -20,10 +19,6 @@ import image5 from '../../images/nodejsIcon.svg';
 import image6 from '../../images/mongodbIcon.svg';
 
 const About = () => {
-	// useEffect(() => {
-	// 	AOS.init({ duration: 5000 });
-	// }, []);
-
 	return (
 		<>
 			<AboutSection id="about">
