@@ -15,6 +15,8 @@ import {
 	Li,
 } from './NavbarElements';
 
+import resumeLink from '../../files/david-caldwell-resume.pdf';
+
 const Navbar = ({ toggle }) => {
 	const [scrollNav, setScrollNav] = useState(false);
 
@@ -35,6 +37,10 @@ const Navbar = ({ toggle }) => {
 	};
 	const toggleContact = () => {
 		scroll.scrollToBottom();
+	};
+
+	const openResume = () => {
+		window.open(resumeLink, '_blank');
 	};
 
 	const openGitHub = () => {
@@ -90,6 +96,11 @@ const Navbar = ({ toggle }) => {
 								scrollNav={scrollNav}
 							>
 								Contact
+							</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink scrollNav={scrollNav} onClick={openResume}>
+								Resume
 							</NavLink>
 						</NavItem>
 						<NavItem>

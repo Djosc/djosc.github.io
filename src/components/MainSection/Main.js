@@ -13,6 +13,7 @@ import {
 	RightArrow,
 	DownArrow,
 	ArrowWrap,
+	LocationIcon,
 } from './MainElements';
 
 import bgImage from '../../images/greyBg.jpg';
@@ -39,6 +40,12 @@ const Main = () => {
 					</div>
 					<div data-aos="fade-down-right">
 						<MainH2>Web Developer</MainH2>
+					</div>
+					<div data-aos="flip-up">
+						<h1 style={{ fontSize: '42px', color: '#fff' }}>
+							<LocationIcon />
+							Dayton, Ohio
+						</h1>
 					</div>
 					<div data-aos="flip-up">
 						<MainBtnWrap>

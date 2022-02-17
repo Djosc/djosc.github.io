@@ -6,6 +6,7 @@ import {
 	AboutColumnLeft,
 	AboutColumnRight,
 	ImageWrap,
+	InfoColumn,
 } from './AboutElements';
 
 import { Tooltip } from '@mui/material';
@@ -18,24 +19,29 @@ import image4 from '../../images/reactIcon.svg';
 import image5 from '../../images/bootstrapIcon.svg';
 import image6 from '../../images/styledcomponentsIcon.svg';
 import image7 from '../../images/nodejsIcon.svg';
-import image8 from '../../images/mongodbIcon.svg';
+import image8 from '../../images/expressjsIcon.svg';
+import image9 from '../../images/mongodbIcon.svg';
 
 const About = () => {
 	return (
 		<>
 			<AboutSection id="about">
 				<AboutContainer>
-					<AboutColumnLeft data-aos="fade-right">
+					{/* <AboutColumnLeft data-aos="fade-right"> */}
+					<AboutColumnLeft>
 						<h1>About Me</h1>
 						<p>
-							Web Developer with 3 years development experience in the defense industry.
-							Well-versed in front-end and back-end technologies such as Javascript,
-							React, Node, Express, and MongoDb. A strong focus on planning, prototyping,
-							testing, and refining web applications. Committed to learning and using the
-							best tool for the problem at hand.
+							I'm a Web Developer with past development experience in the defense industry
+							who is looking to make a full transition into the Web Development field. My
+							desire is to create carefully planned, clean, responsive web applications
+							using whatever tool is best for the job. The MERN stack is my current
+							preference, but I'm very excited to learn more and expand my toolkit. I'm
+							currently available for full-time or freelance work.
 						</p>
 					</AboutColumnLeft>
-					<AboutColumnRight data-aos="fade-left">
+
+					<AboutColumnRight>
+						{/* <AboutColumnRight data-aos="fade-left"> */}
 						<h1>Technologies I Use</h1>
 						<ImageWrap>
 							<Tooltip title="HTML5">
@@ -59,8 +65,11 @@ const About = () => {
 							<Tooltip title="Node.js">
 								<img src={image7} alt="" />
 							</Tooltip>
-							<Tooltip title="MongoDB">
+							<Tooltip title="Express.js">
 								<img src={image8} alt="" />
+							</Tooltip>
+							<Tooltip title="MongoDB">
+								<img src={image9} alt="" />
 							</Tooltip>
 						</ImageWrap>
 					</AboutColumnRight>

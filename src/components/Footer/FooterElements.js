@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { BiCurrentLocation } from 'react-icons/bi';
+import { MdEmail } from 'react-icons/md';
 
 export const FooterContainer = styled.div`
 	background-color: #000;
@@ -54,7 +56,7 @@ export const FooterContact = styled.form`
 	display: grid;
 	margin: 0 auto;
 	padding: 60px 32px;
-	border-radius: 20px;
+	border-radius: 10px;
 
 	@media screen and (max-width: 400px) {
 		padding: 32px 32px;
@@ -129,4 +131,16 @@ export const Li = styled(BsLinkedin)`
 	&:hover {
 		transform: scale(1.1);
 	}
+`;
+
+export const LocationIcon = styled(BiCurrentLocation)`
+	padding-right: 10px;
+	padding-top: 18px;
+	font-size: 40px;
+`;
+
+export const EmailIcon = styled(MdEmail)`
+	padding-right: 10px;
+	padding-top: 18px;
+	font-size: 40px;
 `;

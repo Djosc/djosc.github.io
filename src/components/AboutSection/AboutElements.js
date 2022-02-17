@@ -7,7 +7,7 @@ export const AboutSection = styled.div`
 `;
 
 export const AboutContainer = styled.div`
-	padding: 2rem calc((100vw - 1300px) / 2);
+	padding: 2rem calc((100vw - 1400px) / 2);
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
@@ -24,7 +24,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutColumnLeft = styled.div`
-	text-align: center;
+	text-align: left;
 	h1 {
 		text-align: center;
 		padding-bottom: 2rem;
@@ -37,6 +37,8 @@ export const AboutColumnLeft = styled.div`
 `;
 
 export const AboutColumnRight = styled.div`
+	/* margin-top: 2rem; */
+
 	h1 {
 		text-align: center;
 		padding-bottom: 2rem;
