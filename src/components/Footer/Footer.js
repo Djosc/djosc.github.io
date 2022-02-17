@@ -16,6 +16,8 @@ import {
 	BtnWrap,
 	Gh,
 	Li,
+	LocationIcon,
+	EmailIcon,
 } from './FooterElements';
 
 import { Button } from '../Button/Button';
@@ -38,8 +40,14 @@ const Footer = () => {
 						<p>I would love to hear from you.</p>
 						<div style={{ height: '34px' }}></div>
 						<p>David Caldwell</p>
-						<p>Dayton, Ohio</p>
-						<p>davidjoscaldwell@gmail.com</p>
+						<p>
+							<LocationIcon />
+							Dayton, Ohio
+						</p>
+						<p>
+							<EmailIcon />
+							davidjoscaldwell@gmail.com
+						</p>
 						<FooterLinksWrap>
 							<FooterLinkItems>
 								<Gh onClick={openGitHub} />
