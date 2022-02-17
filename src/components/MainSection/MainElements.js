@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { BsArrowRight, BsArrowDown } from 'react-icons/bs';
-import { style } from '@mui/system';
+import { BiCurrentLocation } from 'react-icons/bi';
 
 export const MainContainer = styled.div`
 	background: #000;
@@ -55,7 +55,7 @@ export const MainContent = styled.div`
 	align-items: center;
 
 	@media screen and (max-width: 1280px) {
-		top: 40%;
+		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
@@ -65,6 +65,10 @@ export const MainH1 = styled.h1`
 	color: #fff;
 	font-size: 72px;
 	text-align: center;
+
+	@media screen and (max-width: 1280px) {
+		font-size: 64px;
+	}
 
 	@media screen and (max-width: 768px) {
 		font-size: 48px;
@@ -79,6 +83,10 @@ export const MainH2 = styled.h1`
 	color: #000;
 	font-size: 72px;
 	text-align: center;
+
+	@media screen and (max-width: 1280px) {
+		font-size: 64px;
+	}
 
 	@media screen and (max-width: 768px) {
 		font-size: 48px;
@@ -128,4 +136,10 @@ export const RightArrow = styled(BsArrowRight)`
 export const DownArrow = styled(BsArrowDown)`
 	font-size: 100px;
 	color: #fff;
+`;
+
+export const LocationIcon = styled(BiCurrentLocation)`
+	padding-right: 10px;
+	padding-top: 14px;
+	font-size: 45px;
 `;

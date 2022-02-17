@@ -54,7 +54,7 @@ export const FooterContact = styled.form`
 	display: grid;
 	margin: 0 auto;
 	padding: 60px 32px;
-	border-radius: 20px;
+	border-radius: 10px;
 
 	@media screen and (max-width: 400px) {
 		padding: 32px 32px;

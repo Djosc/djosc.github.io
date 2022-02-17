@@ -27,7 +27,8 @@ const About = () => {
 		<>
 			<AboutSection id="about">
 				<AboutContainer>
-					<AboutColumnLeft data-aos="fade-right">
+					{/* <AboutColumnLeft data-aos="fade-right"> */}
+					<AboutColumnLeft>
 						<h1>About Me</h1>
 						<p>
 							I'm a Web Developer with past development experience in the defense industry
@@ -39,7 +40,8 @@ const About = () => {
 						</p>
 					</AboutColumnLeft>
 
-					<AboutColumnRight data-aos="fade-left">
+					<AboutColumnRight>
+						{/* <AboutColumnRight data-aos="fade-left"> */}
 						<h1>Technologies I Use</h1>
 						<ImageWrap>
 							<Tooltip title="HTML5">

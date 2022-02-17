@@ -36,6 +36,10 @@ const Footer = () => {
 					<FooterInfo>
 						<h1>Need to talk to me?</h1>
 						<p>I would love to hear from you.</p>
+						<div style={{ height: '34px' }}></div>
+						<p>David Caldwell</p>
+						<p>Dayton, Ohio</p>
+						<p>davidjoscaldwell@gmail.com</p>
 						<FooterLinksWrap>
 							<FooterLinkItems>
 								<Gh onClick={openGitHub} />
