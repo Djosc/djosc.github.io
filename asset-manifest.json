@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.51fb9e14.css",
+    "main.css": "/portfolio-site/static/css/main.55b2a48d.css",
     "main.js": "/portfolio-site/static/js/main.59225fa4.js",
     "static/media/myFlix-homepage-scrnshot.png": "/portfolio-site/static/media/myFlix-homepage-scrnshot.9eb1cd345e74f8f19b7d.png",
     "static/media/greyBg.jpg": "/portfolio-site/static/media/greyBg.b5c4b322d28f457783cb.jpg",
@@ -17,11 +17,11 @@
     "static/media/javascriptIcon.svg": "/portfolio-site/static/media/javascriptIcon.84ac97b2d839ad0e78473327947874a9.svg",
     "static/media/html5Icon.svg": "/portfolio-site/static/media/html5Icon.84c6adac417775a66b5529f1ae8d4572.svg",
     "static/media/css3Icon.svg": "/portfolio-site/static/media/css3Icon.9882e252f3baf8b8d57642a1384d8ba3.svg",
-    "main.51fb9e14.css.map": "/portfolio-site/static/css/main.51fb9e14.css.map",
+    "main.55b2a48d.css.map": "/portfolio-site/static/css/main.55b2a48d.css.map",
     "main.59225fa4.js.map": "/portfolio-site/static/js/main.59225fa4.js.map"
   },
   "entrypoints": [
-    "static/css/main.51fb9e14.css",
+    "static/css/main.55b2a48d.css",
     "static/js/main.59225fa4.js"
   ]
 }
