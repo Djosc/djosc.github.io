@@ -32,13 +32,6 @@ const Navbar = ({ toggle }) => {
 		window.addEventListener('scroll', changeNav);
 	}, []);
 
-	const toggleHome = () => {
-		scroll.scrollToTop();
-	};
-	const toggleContact = () => {
-		scroll.scrollToBottom();
-	};
-
 	const openResume = () => {
 		window.open(resumeLink, '_blank');
 	};
@@ -66,7 +59,7 @@ const Navbar = ({ toggle }) => {
 								to="about"
 								spy={true}
 								smooth={true}
-								offset={-60}
+								offset={-70}
 								duration={500}
 								scrollNav={scrollNav}
 							>
@@ -78,7 +71,7 @@ const Navbar = ({ toggle }) => {
 								to="projects"
 								spy={true}
 								smooth={true}
-								offset={-20}
+								offset={-30}
 								duration={500}
 								scrollNav={scrollNav}
 							>
@@ -92,7 +85,6 @@ const Navbar = ({ toggle }) => {
 								smooth={true}
 								offset={-60}
 								duration={500}
-								onClick={toggleContact}
 								scrollNav={scrollNav}
 							>
 								Contact
