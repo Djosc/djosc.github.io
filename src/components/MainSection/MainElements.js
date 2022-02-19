@@ -10,7 +10,7 @@ export const MainContainer = styled.div`
 	padding: 0 30px;
 	top: -100px;
 	height: calc(100vh - 100px);
-	width: 100%;
+	/* width: 100vw; */
 	position: relative;
 	/* z-index: 1; */
 `;
@@ -24,7 +24,7 @@ export const MainBg = styled.div`
 	bottom: 0;
 	width: 100%;
 	height: 100vh;
-	overflow: hidden;
+	/* overflow: hidden; */
 	/* background-attachment: fixed; */
 `;
 

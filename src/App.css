@@ -6,6 +6,9 @@
 	padding: 0;
 	font-family: 'Nunito', sans-serif;
 }
-body {
+
+body,
+html {
+	min-width: fit-content;
 	overflow-x: hidden;
 }
