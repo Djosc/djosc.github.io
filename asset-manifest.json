@@ -1,28 +1,27 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.91d6c057.css",
-    "main.js": "/portfolio-site/static/js/main.21ff4461.js",
-    "static/media/video1.mp4": "/portfolio-site/static/media/video1.99baa52337d8e85226aa.mp4",
+    "main.js": "/portfolio-site/static/js/main.a94e3470.js",
     "static/media/myFlix-homepage-scrnshot.png": "/portfolio-site/static/media/myFlix-homepage-scrnshot.9eb1cd345e74f8f19b7d.png",
     "static/media/greyBg.jpg": "/portfolio-site/static/media/greyBg.b5c4b322d28f457783cb.jpg",
     "static/media/myFlix Case Study.pdf": "/portfolio-site/static/media/myFlix Case Study.8071bdde2a03a1fb3473.pdf",
-    "static/media/linkedin-image-redux.jpg": "/portfolio-site/static/media/linkedin-image-redux.1d72258d59983d8695dd.jpg",
     "static/media/meet-main-scrnshot.png": "/portfolio-site/static/media/meet-main-scrnshot.5627be0b6db5cd045205.png",
     "static/media/david-caldwell-resume.pdf": "/portfolio-site/static/media/david-caldwell-resume.d4c92af70913b24b5990.pdf",
     "static/media/mongodbIcon.svg": "/portfolio-site/static/media/mongodbIcon.6d3d1850f276edfa810f91b6a64e7989.svg",
     "static/media/reactIcon.svg": "/portfolio-site/static/media/reactIcon.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/nodejsIcon.svg": "/portfolio-site/static/media/nodejsIcon.84ec8c0184f96aed84c87d0c94f9990f.svg",
-    "static/media/githubIcon.svg": "/portfolio-site/static/media/githubIcon.09f5b9f965f0241a3115c9ea0436ba00.svg",
-    "static/media/linkedinIcon.svg": "/portfolio-site/static/media/linkedinIcon.8f3ee2e4bce13f452203c6f5c705d9d4.svg",
+    "static/media/styledcomponentsIcon.svg": "/portfolio-site/static/media/styledcomponentsIcon.6e34e546e24de94bd5d818b2b75cafd1.svg",
+    "static/media/expressjsIcon.svg": "/portfolio-site/static/media/expressjsIcon.493a0dd08d8d77a341e2d22676607a29.svg",
     "index.html": "/portfolio-site/index.html",
+    "static/media/bootstrapIcon.svg": "/portfolio-site/static/media/bootstrapIcon.91aad92a015faa64813b5f46723153a8.svg",
     "static/media/javascriptIcon.svg": "/portfolio-site/static/media/javascriptIcon.84ac97b2d839ad0e78473327947874a9.svg",
     "static/media/html5Icon.svg": "/portfolio-site/static/media/html5Icon.84c6adac417775a66b5529f1ae8d4572.svg",
     "static/media/css3Icon.svg": "/portfolio-site/static/media/css3Icon.9882e252f3baf8b8d57642a1384d8ba3.svg",
     "main.91d6c057.css.map": "/portfolio-site/static/css/main.91d6c057.css.map",
-    "main.21ff4461.js.map": "/portfolio-site/static/js/main.21ff4461.js.map"
+    "main.a94e3470.js.map": "/portfolio-site/static/js/main.a94e3470.js.map"
   },
   "entrypoints": [
     "static/css/main.91d6c057.css",
-    "static/js/main.21ff4461.js"
+    "static/js/main.a94e3470.js"
   ]
 }
