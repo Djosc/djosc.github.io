@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.55b2a48d.css",
-    "main.js": "/portfolio-site/static/js/main.59225fa4.js",
+    "main.css": "/portfolio-site/static/css/main.b05a3f5e.css",
+    "main.js": "/portfolio-site/static/js/main.f3939b51.js",
     "static/media/myFlix-homepage-scrnshot.png": "/portfolio-site/static/media/myFlix-homepage-scrnshot.9eb1cd345e74f8f19b7d.png",
-    "static/media/greyBg.jpg": "/portfolio-site/static/media/greyBg.b5c4b322d28f457783cb.jpg",
+    "static/media/blueBG.jpg": "/portfolio-site/static/media/blueBG.9b267f8a990456344592.jpg",
     "static/media/myFlix Case Study.pdf": "/portfolio-site/static/media/myFlix Case Study.8071bdde2a03a1fb3473.pdf",
+    "static/media/pokedex screenshot.png": "/portfolio-site/static/media/pokedex screenshot.2f3bdddad7a8dc0ae36b.png",
     "static/media/meet-main-scrnshot.png": "/portfolio-site/static/media/meet-main-scrnshot.5627be0b6db5cd045205.png",
     "static/media/david-caldwell-resume.pdf": "/portfolio-site/static/media/david-caldwell-resume.d4c92af70913b24b5990.pdf",
     "static/media/mongodbIcon.svg": "/portfolio-site/static/media/mongodbIcon.6d3d1850f276edfa810f91b6a64e7989.svg",
@@ -17,11 +18,11 @@
     "static/media/javascriptIcon.svg": "/portfolio-site/static/media/javascriptIcon.84ac97b2d839ad0e78473327947874a9.svg",
     "static/media/html5Icon.svg": "/portfolio-site/static/media/html5Icon.84c6adac417775a66b5529f1ae8d4572.svg",
     "static/media/css3Icon.svg": "/portfolio-site/static/media/css3Icon.9882e252f3baf8b8d57642a1384d8ba3.svg",
-    "main.55b2a48d.css.map": "/portfolio-site/static/css/main.55b2a48d.css.map",
-    "main.59225fa4.js.map": "/portfolio-site/static/js/main.59225fa4.js.map"
+    "main.b05a3f5e.css.map": "/portfolio-site/static/css/main.b05a3f5e.css.map",
+    "main.f3939b51.js.map": "/portfolio-site/static/js/main.f3939b51.js.map"
   },
   "entrypoints": [
-    "static/css/main.55b2a48d.css",
-    "static/js/main.59225fa4.js"
+    "static/css/main.b05a3f5e.css",
+    "static/js/main.f3939b51.js"
   ]
 }
