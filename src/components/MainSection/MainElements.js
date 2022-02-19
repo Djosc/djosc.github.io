@@ -13,6 +13,8 @@ export const MainContainer = styled.div`
 	/* width: 100vw; */
 	position: relative;
 	/* z-index: 1; */
+	/* background: #000;
+	opacity: 0.8; */
 `;
 
 export const MainBg = styled.div`

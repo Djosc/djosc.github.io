@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterWrap = styled.div`
-	padding: 4rem calc((100vw - 1200px) / 2);
+	padding: 4rem calc((100vw - 1300px) / 2);
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;

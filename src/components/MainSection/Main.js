@@ -16,7 +16,8 @@ import {
 	LocationIcon,
 } from './MainElements';
 
-import bgImage from '../../images/greyBg.jpg';
+import bgImage from '../../images/blueBG.jpg';
+// import bgImage from '../../images/greyBg.jpg';
 import { Button } from '../Button/Button';
 
 import resumeLink from '../../files/david-caldwell-resume.pdf';
