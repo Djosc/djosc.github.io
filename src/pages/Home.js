@@ -7,7 +7,7 @@ import About from '../components/AboutSection/About';
 import Footer from '../components/Footer/Footer';
 
 import AOS from 'aos';
-import { ProjectData, ProjectDataTwo } from '../data/ProjectData';
+import { ProjectData, ProjectDataTwo, ProjectDataThree } from '../data/ProjectData';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +28,7 @@ const Home = () => {
 			<About />
 			<ProjectSection {...ProjectData} dataAOS={'fade-up'} firstSection={true} />
 			<ProjectSection {...ProjectDataTwo} dataAOS={'fade-up'} firstSection={false} />
-			{/* <ProjectSection {...ProjectDataTwo} dataAOS={'fade-right'} /> */}
+			<ProjectSection {...ProjectDataThree} dataAOS={'fade-up'} firstSection={false} />
 			<Footer />
 		</>
 	);

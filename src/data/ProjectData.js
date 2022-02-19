@@ -2,6 +2,7 @@
 // import ImageTwo from '../images/data-processing.svg';
 import ImageOne from '../images/myFlix-homepage-scrnshot.png';
 import ImageTwo from '../images/meet-main-scrnshot.png';
+import ImageThree from '../images/pokedex screenshot.png';
 
 import caseStudy from '../files/myFlix Case Study.pdf';
 
@@ -39,14 +40,18 @@ export const ProjectDataTwo = {
 	primary: true,
 };
 
-// export const InfoDataThree = {
-// 	heading: 'Lorem Ipsum',
-// 	paragraphOne:
-// 		'Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsum',
-// 	paragraphTwo:
-// 		'Lorem ipsum Lorem Lorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsum',
-// 	buttonLabel: 'Learn More',
-// 	image: ImageTwo,
-// 	reverse: false,
-// 	delay: 100,
-// };
+export const ProjectDataThree = {
+	heading: 'Pokedex',
+	paragraphOne:
+		'This is a small web application that loads the original 150 Pokémon from an external API and displays them in an interactive list. This was made with HTML, CSS, Javascript, Bootstrap, and JQuery.',
+
+	liveLinkLabel: 'Live Demo',
+	liveLink: 'https://djosc.github.io/Pokedex-app/',
+	githubLinkLabel: 'Github Repo',
+	githubLink: 'https://github.com/Djosc/Pokedex-app',
+	caseStudyBool: false,
+	image: ImageThree,
+	reverse: false,
+	dark: true,
+	primary: false,
+};
