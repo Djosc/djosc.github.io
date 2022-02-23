@@ -22,6 +22,9 @@ const ProjectSection = ({
 	caseStudyLinkLabel,
 	caseStudyLink,
 	caseStudyBool,
+	videoLinkLabel,
+	videoLink,
+	videoBool,
 	image,
 	reverse,
 	dark,
@@ -48,6 +51,11 @@ const ProjectSection = ({
 		window.open(url, '_blank');
 	};
 
+	const openVideo = () => {
+		const url = videoLink;
+		window.open(url, '_blank');
+	};
+
 	return (
 		<Section id="projects" dark={dark}>
 			<div data-aos={dataAOS}>
@@ -65,13 +73,22 @@ const ProjectSection = ({
 								{githubLinkLabel}
 							</Button>
 						</BtnWrap>
-						{caseStudyBool ? (
-							<Button to="/" onClick={openCaseStudy} big="true" primary={primary}>
-								{caseStudyLinkLabel}
-							</Button>
-						) : (
-							<></>
-						)}
+						<BtnWrap>
+							{caseStudyBool ? (
+								<Button to="/" onClick={openCaseStudy} big="true" primary={primary}>
+									{caseStudyLinkLabel}
+								</Button>
+							) : (
+								<></>
+							)}
+							{videoBool ? (
+								<Button to="/" onClick={openVideo} big="true" primary={primary}>
+									{videoLinkLabel}
+								</Button>
+							) : (
+								<></>
+							)}
+						</BtnWrap>
 					</ColumnLeft>
 					<ColumnRight reverse={reverse}>
 						<img src={image} alt="art" />
