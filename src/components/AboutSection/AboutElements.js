@@ -3,11 +3,12 @@ import styled from 'styled-components';
 export const AboutSection = styled.div`
 	width: 100%;
 	height: 100%;
-	padding: 1rem 0rem;
+	padding: 0rem 0rem;
+	margin-bottom: 2rem;
 `;
 
 export const AboutContainer = styled.div`
-	padding: 2rem calc((100vw - 1400px) / 2);
+	padding: 0rem calc((100vw - 1400px) / 2);
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
@@ -18,13 +19,15 @@ export const AboutContainer = styled.div`
 		grid-template-columns: 1fr;
 
 		grid-template-rows: 1fr 1fr;
-		padding: 2rem;
-		grid-gap: 1rem;
+		/* padding: 2rem; */
+		grid-gap: 4rem;
 	}
 `;
 
 export const AboutColumnLeft = styled.div`
+	padding-top: 2rem;
 	text-align: left;
+	color: #fff;
 	h1 {
 		text-align: center;
 		padding-bottom: 2rem;
@@ -38,10 +41,15 @@ export const AboutColumnLeft = styled.div`
 
 export const AboutColumnRight = styled.div`
 	/* margin-top: 2rem; */
+	color: #fff;
 
 	h1 {
 		text-align: center;
 		padding-bottom: 2rem;
+	}
+
+	@media screen and (max-width: 768px) {
+		padding-top: 5rem;
 	}
 `;
 

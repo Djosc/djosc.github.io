@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Section = styled.section`
 	width: 100%;
 	height: 100%;
-	background: ${({ dark }) => (dark ? '#0d5899' : '#fff')};
+	/* background: ${({ dark }) => (dark ? '#0d5899' : '#fff')}; */
 	padding: 4rem 0rem;
 `;
 export const Container = styled.div`
@@ -34,9 +34,9 @@ export const ColumnLeft = styled.div`
 	}
 
 	p {
-		font-size: 19px;
+		font-size: 22px;
 		margin-bottom: 2rem;
-		max-width: 80%;
+		max-width: 90%;
 		color: ${({ dark }) => (dark ? '#fff' : '#000')};
 	}
 

@@ -26,17 +26,29 @@ const About = () => {
 	return (
 		<>
 			<AboutSection id="about">
-				<AboutContainer>
-					{/* <AboutColumnLeft data-aos="fade-right"> */}
+				<AboutContainer className="spacer layer1">
 					<AboutColumnLeft>
 						<h1>About Me</h1>
 						<p>
-							I'm a Web Developer with past development experience in the defense industry
-							who is looking to make a full transition into the Web Development field. My
-							desire is to create carefully planned, clean, responsive web applications
-							using whatever tool is best for the job. The MERN stack is my current
-							preference, but I'm very excited to learn more and expand my toolkit. I'm
-							currently available for full-time or freelance work.
+							I’m a Web Developer with a strong desire to grow and learn the best
+							technology for the job. My transition into Web Development has allowed me to
+							become well-versed in front-end and back-end technologies. My current
+							preference is the MERN stack, but I have a strong desire to keep expanding
+							my toolkit.
+						</p>
+						<br />
+						<p>
+							My experience working in the defense industry allowed me to develop the
+							skills to thoroughly plan, gather project requirements, gather feedback, and
+							effectively work along-side team members within the scope of a larger
+							corporate environment.
+						</p>
+						<br />
+						<p>
+							As I continue my Web Development journey, my goal is to find a role in which
+							I can create clean, responsive web applications while being a key member of
+							the team. I am currently open to full-time, part-time, free-lance, or
+							volunteer work. Feel free to send me a message in the Contact section.
 						</p>
 					</AboutColumnLeft>
 

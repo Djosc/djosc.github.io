@@ -57,7 +57,7 @@ const ProjectSection = ({
 	};
 
 	return (
-		<Section id="projects" dark={dark}>
+		<Section id="projects" dark={dark} className={reverse ? `` : `spacer layer2`}>
 			<div data-aos={dataAOS}>
 				{firstSection ? <Heading>Projects I've Completed</Heading> : <></>}
 

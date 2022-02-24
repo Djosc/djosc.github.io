@@ -12,3 +12,20 @@ html {
 	min-width: fit-content;
 	/* overflow-x: hidden; */
 }
+
+.spacer {
+	/* aspect-ratio: 900/300; */
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+}
+
+.layer1 {
+	background-image: url('./images/layered-waves-blue-haikei.svg');
+}
+
+.layer2 {
+	background-image: url('./images/blurry-gradient-haikei.svg');
+}
