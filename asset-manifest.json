@@ -1,31 +1,38 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.0ead36b8.css",
-    "main.js": "/portfolio-site/static/js/main.be5fabe5.js",
+    "main.js": "/portfolio-site/static/js/main.6a52f8e0.js",
     "static/media/myflix.mp4": "/portfolio-site/static/media/myflix.1a99a29e399ea09322f7.mp4",
     "static/media/myFlix-homepage-scrnshot.png": "/portfolio-site/static/media/myFlix-homepage-scrnshot.9eb1cd345e74f8f19b7d.png",
+    "static/media/myFlix-angular-screenshot.png": "/portfolio-site/static/media/myFlix-angular-screenshot.afbeb24f8fd2cef320ed.png",
+    "static/media/chat-site-screenshot.png": "/portfolio-site/static/media/chat-site-screenshot.bc2b3170a57d0c738f54.png",
     "static/media/blueBG.jpg": "/portfolio-site/static/media/blueBG.9b267f8a990456344592.jpg",
     "static/media/myFlix Case Study.pdf": "/portfolio-site/static/media/myFlix Case Study.8071bdde2a03a1fb3473.pdf",
+    "static/media/Chat-app-functionality.pdf": "/portfolio-site/static/media/Chat-app-functionality.a8dce9c24b70c543ff59.pdf",
     "static/media/pokedex screenshot.png": "/portfolio-site/static/media/pokedex screenshot.2f3bdddad7a8dc0ae36b.png",
     "static/media/meet-main-scrnshot.png": "/portfolio-site/static/media/meet-main-scrnshot.5627be0b6db5cd045205.png",
     "static/media/david-caldwell-resume.pdf": "/portfolio-site/static/media/david-caldwell-resume.b6b34329d680e4a0df3c.pdf",
+    "static/media/movie-api-screenshot.png": "/portfolio-site/static/media/movie-api-screenshot.a7df485eac83e67d3fa6.png",
     "static/media/mongodbIcon.svg": "/portfolio-site/static/media/mongodbIcon.6d3d1850f276edfa810f91b6a64e7989.svg",
     "static/media/reactIcon.svg": "/portfolio-site/static/media/reactIcon.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/nodejsIcon.svg": "/portfolio-site/static/media/nodejsIcon.84ec8c0184f96aed84c87d0c94f9990f.svg",
     "static/media/styledcomponentsIcon.svg": "/portfolio-site/static/media/styledcomponentsIcon.6e34e546e24de94bd5d818b2b75cafd1.svg",
     "static/media/expressjsIcon.svg": "/portfolio-site/static/media/expressjsIcon.493a0dd08d8d77a341e2d22676607a29.svg",
     "static/media/layered-waves-blue-haikei.svg": "/portfolio-site/static/media/layered-waves-blue-haikei.e2aa23f68215582524c2.svg",
+    "static/media/wordpressIcon.svg": "/portfolio-site/static/media/wordpressIcon.de4449937a8127522da20340c2e4cc80.svg",
     "static/media/blurry-gradient-haikei.svg": "/portfolio-site/static/media/blurry-gradient-haikei.260ee90565f8dc10a29c.svg",
     "index.html": "/portfolio-site/index.html",
     "static/media/bootstrapIcon.svg": "/portfolio-site/static/media/bootstrapIcon.91aad92a015faa64813b5f46723153a8.svg",
+    "static/media/angularIcon.svg": "/portfolio-site/static/media/angularIcon.f9ef2acacb9c7dcc60c405977c26f5fe.svg",
+    "static/media/typescriptIcon.svg": "/portfolio-site/static/media/typescriptIcon.f20748caf2dac55710ddeed71de0bac4.svg",
     "static/media/javascriptIcon.svg": "/portfolio-site/static/media/javascriptIcon.84ac97b2d839ad0e78473327947874a9.svg",
     "static/media/html5Icon.svg": "/portfolio-site/static/media/html5Icon.84c6adac417775a66b5529f1ae8d4572.svg",
     "static/media/css3Icon.svg": "/portfolio-site/static/media/css3Icon.9882e252f3baf8b8d57642a1384d8ba3.svg",
     "main.0ead36b8.css.map": "/portfolio-site/static/css/main.0ead36b8.css.map",
-    "main.be5fabe5.js.map": "/portfolio-site/static/js/main.be5fabe5.js.map"
+    "main.6a52f8e0.js.map": "/portfolio-site/static/js/main.6a52f8e0.js.map"
   },
   "entrypoints": [
     "static/css/main.0ead36b8.css",
-    "static/js/main.be5fabe5.js"
+    "static/js/main.6a52f8e0.js"
   ]
 }
