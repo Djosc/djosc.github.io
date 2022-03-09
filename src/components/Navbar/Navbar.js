@@ -71,7 +71,7 @@ const Navbar = ({ toggle }) => {
 								to="projects"
 								spy={true}
 								smooth={true}
-								offset={-30}
+								offset={-70}
 								duration={500}
 								scrollNav={scrollNav}
 							>

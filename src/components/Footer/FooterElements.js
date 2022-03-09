@@ -68,6 +68,10 @@ export const FormH1 = styled.h1`
 	text-align: center;
 	margin-top: -30px;
 	margin-bottom: 40px;
+
+	@media screen and (max-width: 400px) {
+		margin-top: 0px;
+	}
 `;
 
 export const FormInput = styled.input`
