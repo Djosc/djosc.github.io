@@ -92,7 +92,7 @@ const About = () => {
 							<Tooltip title="MongoDB">
 								<img src={image11} alt="" />
 							</Tooltip>
-							<Tooltip title="Wordpress">
+							<Tooltip title="WordPress">
 								<img src={image12} alt="" />
 							</Tooltip>
 						</ImageWrap>
