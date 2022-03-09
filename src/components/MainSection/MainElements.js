@@ -65,11 +65,11 @@ export const MainContent = styled.div`
 
 export const MainH1 = styled.h1`
 	color: #fff;
-	font-size: 72px;
+	font-size: 68px;
 	text-align: center;
 
 	@media screen and (max-width: 1280px) {
-		font-size: 64px;
+		font-size: 60px;
 	}
 
 	@media screen and (max-width: 768px) {
@@ -83,11 +83,11 @@ export const MainH1 = styled.h1`
 
 export const MainH2 = styled.h1`
 	color: #000;
-	font-size: 72px;
+	font-size: 68px;
 	text-align: center;
 
 	@media screen and (max-width: 1280px) {
-		font-size: 64px;
+		font-size: 58px;
 	}
 
 	@media screen and (max-width: 768px) {

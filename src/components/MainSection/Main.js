@@ -54,7 +54,7 @@ const Main = () => {
 								to="projects"
 								spy={true}
 								smooth={true}
-								offset={-20}
+								offset={-60}
 								duration={500}
 								primary={'true'}
 								big={'true'}

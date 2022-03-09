@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterWrap = styled.div`
-	padding: 4rem calc((100vw - 1300px) / 2);
+	padding: 4rem calc((100vw - 1500px) / 2);
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
@@ -68,6 +68,10 @@ export const FormH1 = styled.h1`
 	text-align: center;
 	margin-top: -30px;
 	margin-bottom: 40px;
+
+	@media screen and (max-width: 400px) {
+		margin-top: 0px;
+	}
 `;
 
 export const FormInput = styled.input`

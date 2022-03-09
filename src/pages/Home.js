@@ -2,12 +2,20 @@ import React, { useState, useEffect } from 'react';
 import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Navbar/Navbar';
 import Main from '../components/MainSection/Main';
+import { Section, Heading } from '../components/ProjectSection/ProjectSectionElements';
 import ProjectSection from '../components/ProjectSection/ProjectSection';
 import About from '../components/AboutSection/About';
 import Footer from '../components/Footer/Footer';
 
 import AOS from 'aos';
-import { ProjectData, ProjectDataTwo, ProjectDataThree } from '../data/ProjectData';
+import {
+	ProjectData,
+	ProjectDataTwo,
+	ProjectDataThree,
+	ProjectDataFour,
+	ProjectDataFive,
+	ProjectDataSix,
+} from '../data/ProjectData';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -26,9 +34,27 @@ const Home = () => {
 			<Navbar toggle={toggle} />
 			<Main />
 			<About />
-			<ProjectSection {...ProjectData} dataAOS={'fade-up'} firstSection={true} />
-			<ProjectSection {...ProjectDataTwo} dataAOS={'fade-up'} firstSection={false} />
-			<ProjectSection {...ProjectDataThree} dataAOS={'fade-up'} firstSection={false} />
+			<Heading className="">Projects I've Worked On</Heading>
+			<Section id="projects" className="spacer layer2" style={{ overflowX: 'hidden' }}>
+				<ProjectSection {...ProjectData} dataAOS={'fade-right'} firstSection={false} />
+				<ProjectSection {...ProjectDataTwo} dataAOS={'fade-left'} firstSection={false} />
+			</Section>
+			<Section className="" style={{ overflowX: 'hidden' }}>
+				<ProjectSection
+					{...ProjectDataThree}
+					dataAOS={'fade-right'}
+					firstSection={false}
+				/>
+				<ProjectSection {...ProjectDataFour} dataAOS={'fade-left'} firstSection={false} />
+			</Section>
+			<Section className="spacer layer2" style={{ overflowX: 'hidden' }}>
+				<ProjectSection
+					{...ProjectDataFive}
+					dataAOS={'fade-right'}
+					firstSection={false}
+				/>
+				<ProjectSection {...ProjectDataSix} dataAOS={'fade-left'} firstSection={false} />
+			</Section>
 			<Footer />
 		</>
 	);
