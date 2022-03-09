@@ -16,11 +16,14 @@ import image1 from '../../images/html5Icon.svg';
 import image2 from '../../images/css3Icon.svg';
 import image3 from '../../images/javascriptIcon.svg';
 import image4 from '../../images/reactIcon.svg';
-import image5 from '../../images/bootstrapIcon.svg';
-import image6 from '../../images/styledcomponentsIcon.svg';
-import image7 from '../../images/nodejsIcon.svg';
-import image8 from '../../images/expressjsIcon.svg';
-import image9 from '../../images/mongodbIcon.svg';
+import image5 from '../../images/typescriptIcon.svg';
+import image6 from '../../images/angularIcon.svg';
+import image7 from '../../images/bootstrapIcon.svg';
+import image8 from '../../images/styledcomponentsIcon.svg';
+import image9 from '../../images/nodejsIcon.svg';
+import image10 from '../../images/expressjsIcon.svg';
+import image11 from '../../images/mongodbIcon.svg';
+import image12 from '../../images/wordpressIcon.svg';
 
 const About = () => {
 	return (
@@ -68,20 +71,29 @@ const About = () => {
 							<Tooltip title="React">
 								<img src={image4} alt="" />
 							</Tooltip>
-							<Tooltip title="Bootstrap">
+							{/* <Tooltip title="Typescript">
 								<img src={image5} alt="" />
 							</Tooltip>
-							<Tooltip title="Styled Components">
+							<Tooltip title="Angular">
 								<img src={image6} alt="" />
-							</Tooltip>
-							<Tooltip title="Node.js">
+							</Tooltip> */}
+							<Tooltip title="Bootstrap">
 								<img src={image7} alt="" />
 							</Tooltip>
-							<Tooltip title="Express.js">
+							<Tooltip title="Styled Components">
 								<img src={image8} alt="" />
 							</Tooltip>
-							<Tooltip title="MongoDB">
+							<Tooltip title="Node.js">
 								<img src={image9} alt="" />
+							</Tooltip>
+							<Tooltip title="Express.js">
+								<img src={image10} alt="" />
+							</Tooltip>
+							<Tooltip title="MongoDB">
+								<img src={image11} alt="" />
+							</Tooltip>
+							<Tooltip title="Wordpress">
+								<img src={image12} alt="" />
 							</Tooltip>
 						</ImageWrap>
 					</AboutColumnRight>
