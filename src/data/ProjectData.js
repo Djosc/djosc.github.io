@@ -52,7 +52,7 @@ export const ProjectDataTwo = {
 export const ProjectDataThree = {
 	heading: 'Meet',
 	paragraphOne:
-		'Meet is a React application that retrieves data from the Google Calendar API about upcoming events related to Web Development. It uses Google Oauth2.0 in combination with serverless AWS Lambda functions to authenticate user logins. This is a Progressive Web App, built with a focus on Test Driven Development using Jest and Enzyme. It also uses the react Recharts library to visualize the event data.',
+		'Meet is a React application that retrieves mock web development events from the Google Calendar API. It uses Google Oauth2.0 in combination with serverless AWS Lambda functions to authenticate user logins. This app was built with a focus on Test Driven Development using Jest and Enzyme. It also uses the react Recharts library to visualize the event data.',
 
 	liveLinkLabel: 'Live Version',
 	liveLink: 'https://djosc.github.io/meet/',

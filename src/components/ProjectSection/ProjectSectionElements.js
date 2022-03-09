@@ -46,7 +46,7 @@ export const ColumnLeft = styled.div`
 		font-size: 17px;
 		margin-bottom: 2rem;
 		margin-top: 1rem;
-		max-width: 95%;
+		max-width: 85%;
 		color: ${({ dark }) => (dark ? '#fff' : '#000')};
 
 		@media screen and (max-width: 1280px) {
