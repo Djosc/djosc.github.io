@@ -5,9 +5,11 @@ import ImageTwo from '../images/myFlix-angular-screenshot.png';
 import ImageThree from '../images/meet-main-scrnshot.png';
 import ImageFour from '../images/pokedex screenshot.png';
 import ImageFive from '../images/movie-api-screenshot.png';
+import ImageSix from '../images/chat-site-screenshot.png';
 
 import caseStudy from '../files/myFlix Case Study.pdf';
 import myFlixVideo from '../videos/myflix.mp4';
+import chatFunctionality from '../files/Chat-app-functionality.pdf';
 
 export const ProjectData = {
 	heading: 'MyFlix React',
@@ -18,7 +20,7 @@ export const ProjectData = {
 	liveLink: 'https://myflix-davidcaldwell.netlify.app/',
 	githubLinkLabel: 'Github Repo',
 	githubLink: 'https://github.com/Djosc/myFlix-client',
-	caseStudyLinkLabel: 'Case Study PDF',
+	caseStudyLinkLabel: 'Case Study (PDF)',
 	caseStudyLink: caseStudy,
 	caseStudyBool: true,
 	videoLinkLabel: 'Demo Video',
@@ -50,7 +52,7 @@ export const ProjectDataTwo = {
 export const ProjectDataThree = {
 	heading: 'Meet',
 	paragraphOne:
-		'Meet is a React application that retrieves data from the Google Calendar API about upcoming events related to Web Development. It uses Google Oauth2.0 in combination with serverless AWS Lambda functions to authenticate user logins. This is a Progressive Web App, built with a focus on Test Driven Development using Jest and Enzyme. It also uses the react Recharts library to visualize the event data. Read more on the github repo.',
+		'Meet is a React application that retrieves data from the Google Calendar API about upcoming events related to Web Development. It uses Google Oauth2.0 in combination with serverless AWS Lambda functions to authenticate user logins. This is a Progressive Web App, built with a focus on Test Driven Development using Jest and Enzyme. It also uses the react Recharts library to visualize the event data.',
 
 	liveLinkLabel: 'Live Version',
 	liveLink: 'https://djosc.github.io/meet/',
@@ -93,6 +95,25 @@ export const ProjectDataFive = {
 	caseStudyBool: false,
 	videoBool: false,
 	image: ImageFive,
+	reverse: true,
+	dark: true,
+	primary: true,
+};
+
+export const ProjectDataSix = {
+	heading: 'Chat App',
+	paragraphOne:
+		'This application is a simple chat app built with React-Native, Expo, Gifted-Chat, and Google Firebase. It allows users to enter their name, select their theme color, and (with user permission) send messages/images/location data in a responsive chat environment.',
+
+	liveLinkLabel: 'Functionality (PDF)',
+	liveLink: chatFunctionality,
+	githubLinkLabel: 'Github Repo',
+	githubLink: 'https://github.com/Djosc/native-chat-app',
+	caseStudyBool: false,
+	videoLinkLabel: 'Demo Video',
+	videoLink: myFlixVideo,
+	videoBool: false,
+	image: ImageSix,
 	reverse: true,
 	dark: true,
 	primary: true,

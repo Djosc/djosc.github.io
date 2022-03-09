@@ -85,7 +85,7 @@ export const ColumnRight = styled.div`
 		}
 
 		@media screen and (max-width: 768px) {
-			width: 340px;
+			width: 360px;
 			height: 320px;
 		}
 	}

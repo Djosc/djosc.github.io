@@ -14,6 +14,7 @@ import {
 	ProjectDataThree,
 	ProjectDataFour,
 	ProjectDataFive,
+	ProjectDataSix,
 } from '../data/ProjectData';
 
 const Home = () => {
@@ -52,6 +53,7 @@ const Home = () => {
 					dataAOS={'fade-right'}
 					firstSection={false}
 				/>
+				<ProjectSection {...ProjectDataSix} dataAOS={'fade-left'} firstSection={false} />
 			</Section>
 			<Footer />
 		</>
