@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import {
 	AboutSection,
@@ -6,7 +6,6 @@ import {
 	AboutColumnLeft,
 	AboutColumnRight,
 	ImageWrap,
-	InfoColumn,
 } from './AboutElements';
 
 import { Tooltip } from '@mui/material';
@@ -50,8 +49,8 @@ const About = () => {
 						<p>
 							As I continue my Web Development journey, my goal is to find a role in which
 							I can create clean, responsive web applications while being a key member of
-							the team. I am currently open to full-time, part-time, free-lance, or
-							volunteer work. Feel free to send me a message in the Contact section.
+							the team. I am currently open to full-time, part-time, or free-lance work.
+							Feel free to send me a message in the Contact section.
 						</p>
 					</AboutColumnLeft>
 

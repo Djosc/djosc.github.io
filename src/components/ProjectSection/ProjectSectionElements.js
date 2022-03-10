@@ -6,8 +6,9 @@ export const Section = styled.section`
 	/* background: ${({ dark }) => (dark ? '#0d5899' : '#fff')}; */
 	padding: 4rem 0rem;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: fit-content(45%) fit-content(45%);
 	grid-template-rows: 1fr;
+	justify-content: center;
 
 	@media screen and (max-width: 1280px) {
 		grid-template-columns: 1fr;
@@ -22,13 +23,14 @@ export const Container = styled.div`
 	grid-template-rows: 1fr;
 	padding-top: 3rem;
 `;
+
 export const ColumnLeft = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	line-height: 1.4;
-	padding: 1rem 3rem;
+	padding: 1rem 2rem;
 	order: ${({ reverse }) => (reverse ? '2' : '1')};
 
 	text-align: center;

@@ -9,7 +9,7 @@ export const Nav = styled.nav`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 	position: sticky;
 	top: 0;
 	z-index: 10;
@@ -65,7 +65,7 @@ export const NavItem = styled.li`
 
 export const NavLink = styled(LinkS)`
 	color: ${({ scrollNav }) => (scrollNav ? '#fff' : '#000')};
-	font-weight: bold;
+	/* font-weight: bold; */
 	display: flex;
 	align-items: center;
 	text-decoration: none;
