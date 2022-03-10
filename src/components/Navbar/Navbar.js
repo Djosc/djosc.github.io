@@ -42,7 +42,7 @@ const Navbar = ({ toggle }) => {
 	};
 
 	const openLinkedIn = () => {
-		const url = 'https://www.linkedin.com/in/david-caldwell-4663b9205/';
+		const url = 'https://www.linkedin.com/in/djosc/';
 		window.open(url, '_blank');
 	};
 

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { BiCurrentLocation } from 'react-icons/bi';
 import { MdEmail } from 'react-icons/md';
+import { AiFillTwitterCircle, AiFillMediumSquare } from 'react-icons/ai';
 
 export const FooterContainer = styled.div`
 	background-color: #000;
@@ -128,6 +129,28 @@ export const Gh = styled(BsGithub)`
 
 export const Li = styled(BsLinkedin)`
 	font-size: 50px;
+	margin: 0rem 1rem;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+`;
+
+export const Tw = styled(AiFillTwitterCircle)`
+	font-size: 55px;
+	margin: 0rem 1rem;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+`;
+
+export const Med = styled(AiFillMediumSquare)`
+	font-size: 55px;
 	margin: 0rem 1rem;
 	cursor: pointer;
 	transition: 0.3s all ease-in-out;

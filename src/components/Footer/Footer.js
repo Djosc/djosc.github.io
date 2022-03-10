@@ -19,6 +19,8 @@ import {
 	BtnWrap,
 	Gh,
 	Li,
+	Tw,
+	Med,
 	LocationIcon,
 	EmailIcon,
 } from './FooterElements';
@@ -77,10 +79,22 @@ const Footer = () => {
 		const url = 'https://github.com/Djosc';
 		window.open(url, '_blank');
 	};
+
 	const openLinkedIn = () => {
-		const url = 'https://www.linkedin.com/in/david-caldwell-4663b9205/';
+		const url = 'https://www.linkedin.com/in/djosc/';
 		window.open(url, '_blank');
 	};
+
+	const openTwitter = () => {
+		const url = 'https://twitter.com/DavidWebDev';
+		window.open(url, '_blank');
+	};
+
+	const openMedium = () => {
+		const url = 'https://medium.com/@davidjoscaldwell';
+		window.open(url, '_blank');
+	};
+
 	return (
 		<>
 			<FooterContainer id="contact">
@@ -102,6 +116,8 @@ const Footer = () => {
 							<FooterLinkItems>
 								<Gh onClick={openGitHub} />
 								<Li onClick={openLinkedIn} />
+								<Tw onClick={openTwitter} />
+								<Med onClick={openMedium} />
 							</FooterLinkItems>
 						</FooterLinksWrap>
 					</FooterInfo>
