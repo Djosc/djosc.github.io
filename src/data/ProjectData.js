@@ -14,7 +14,7 @@ import chatFunctionality from '../files/Chat-app-functionality.pdf';
 export const ProjectData = {
 	heading: 'MyFlix React',
 	paragraphOne:
-		'MyFlix allows registered and authenticated users to view and manage a selection of classic movies. This full-stack MERN application features a React.js and Redux frontend built on top on a MongoDB, Express, and Node.js backend, styled with React Bootstrap.',
+		"MyFlix allows registered and authenticated users to view and manage a selection of classic movies. This full-stack MERN application features a React.js and Redux frontend built on top on a MongoDB, Express, and Node.js backend, styled with React Bootstrap. To try it out -- Username: 'testaccount', Password: 'test1234'",
 
 	liveLinkLabel: 'Live Version',
 	liveLink: 'https://myflix-davidcaldwell.netlify.app/',
@@ -25,7 +25,7 @@ export const ProjectData = {
 	caseStudyBool: true,
 	videoLinkLabel: 'Demo Video',
 	videoLink: myFlixVideo,
-	videoBool: true,
+	videoBool: false,
 	image: ImageOne,
 	reverse: true,
 	dark: true,
