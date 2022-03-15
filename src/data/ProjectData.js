@@ -86,7 +86,7 @@ export const ProjectDataFour = {
 export const ProjectDataFive = {
 	heading: 'Movie API',
 	paragraphOne:
-		'This is a Node.js backend which connects to a Mongo Database through the Mongoose Library. It provides endpoints for accessing movie data with all the necessary CRUD functionality.',
+		'This is a Node.js backend which connects to a Mongo Database through the Mongoose Library. It provides endpoints for accessing movie data with all the necessary CRUD functionality. Also, it uses Bcrypt password hashing and JWT authentication with the Passport.js library.',
 
 	liveLinkLabel: 'Documentation',
 	liveLink: 'https://david-caldwell-myflix.herokuapp.com/documentation',

@@ -58,42 +58,52 @@ const About = () => {
 						{/* <AboutColumnRight data-aos="fade-left"> */}
 						<h1>Technologies I Use</h1>
 						<ImageWrap>
-							<Tooltip title="HTML5">
-								<img src={image1} alt="" />
-							</Tooltip>
-							<Tooltip title="CSS3">
-								<img src={image2} alt="" />
-							</Tooltip>
-							<Tooltip title="Javascript">
-								<img src={image3} alt="" />
-							</Tooltip>
-							<Tooltip title="React">
-								<img src={image4} alt="" />
-							</Tooltip>
+							<div>
+								<img src={image1} alt="HTML" />
+								<p>HTML5</p>
+							</div>
+							<div>
+								<img src={image2} alt="CSS" />
+								<p>CSS3</p>
+							</div>
+							<div>
+								<img src={image3} alt="Javascript" />
+								<p>Javascript</p>
+							</div>
+							<div>
+								<img src={image4} alt="React" />
+								<p>React</p>
+							</div>
+							<div>
+								<img src={image7} alt="Bootstrap" />
+								<p>Bootstrap</p>
+							</div>
+							<div>
+								<img src={image8} alt="Styled Components" />
+								<p>Styled Components</p>
+							</div>
+							<div>
+								<img src={image9} alt="Node.js" />
+								<p>Node.js</p>
+							</div>
+							<div>
+								<img src={image10} alt="Express.js" />
+								<p>Express.js</p>
+							</div>
+							<div>
+								<img src={image11} alt="MongoDB" />
+								<p>MongoDB</p>
+							</div>
+							<div>
+								<img src={image12} alt="WordPress" />
+								<p>WordPress</p>
+							</div>
 							{/* <Tooltip title="Typescript">
 								<img src={image5} alt="" />
 							</Tooltip>
 							<Tooltip title="Angular">
 								<img src={image6} alt="" />
 							</Tooltip> */}
-							<Tooltip title="Bootstrap">
-								<img src={image7} alt="" />
-							</Tooltip>
-							<Tooltip title="Styled Components">
-								<img src={image8} alt="" />
-							</Tooltip>
-							<Tooltip title="Node.js">
-								<img src={image9} alt="" />
-							</Tooltip>
-							<Tooltip title="Express.js">
-								<img src={image10} alt="" />
-							</Tooltip>
-							<Tooltip title="MongoDB">
-								<img src={image11} alt="" />
-							</Tooltip>
-							<Tooltip title="WordPress">
-								<img src={image12} alt="" />
-							</Tooltip>
 						</ImageWrap>
 					</AboutColumnRight>
 				</AboutContainer>

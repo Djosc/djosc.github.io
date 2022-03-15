@@ -63,9 +63,9 @@ export const ImageWrap = styled.div`
 		width: 150px;
 		height: 150px;
 		padding: 1rem 1rem;
+	}
 
-		&:hover {
-			transform: translateY(-3px);
-		}
+	p {
+		color: #000;
 	}
 `;

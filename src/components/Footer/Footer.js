@@ -116,8 +116,8 @@ const Footer = () => {
 							<FooterLinkItems>
 								<Gh onClick={openGitHub} />
 								<Li onClick={openLinkedIn} />
-								<Tw onClick={openTwitter} />
-								<Med onClick={openMedium} />
+								{/* <Tw onClick={openTwitter} />
+								<Med onClick={openMedium} /> */}
 							</FooterLinkItems>
 						</FooterLinksWrap>
 					</FooterInfo>
