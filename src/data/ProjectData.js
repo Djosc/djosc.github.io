@@ -35,7 +35,7 @@ export const ProjectData = {
 export const ProjectDataTwo = {
 	heading: 'MyFlix Angular',
 	paragraphOne:
-		'This is a version of the myFlix Application built with Angular. This full-stack MEAN application features a Typescript frontend built on top on a MongoDB, Express, and Node.js backend, styled with Angular Material UI.',
+		"This is a version of the myFlix Application built with Angular. This full-stack MEAN application features a Typescript frontend built on top on a MongoDB, Express, and Node.js backend, styled with Angular Material UI. To try it out -- Username: 'testaccount', Password: 'test1234'",
 
 	liveLinkLabel: 'Live Version',
 	liveLink: 'https://djosc.github.io/myFlix-Angular-client/',
