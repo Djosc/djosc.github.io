@@ -1,8 +1,8 @@
 {
 	"name": "portfolio-site",
 	"version": "0.1.0",
-	"homepage": "https://djosc.github.io/portfolio-site",
-	"private": true,
+	"homepage": "https://djosc.github.io/",
+	"private": false,
 	"dependencies": {
 		"@emailjs/browser": "^3.4.0",
 		"@emotion/react": "^11.7.1",
