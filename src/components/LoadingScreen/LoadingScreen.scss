@@ -5,20 +5,8 @@
 	--box-border-radius: 15%;
 }
 
-// html,
-// body {
-// 	width: 100%;
-// 	height: 100%;
-// 	overflow: hidden;
-// 	margin: 0;
-// 	padding: 0;
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// }
-
 .image-wrap {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
@@ -26,30 +14,21 @@
 	width: 100%;
 	height: 100vh;
 	background-color: #0e528f;
-}
-
-.image-wrap > img {
-	width: 100%;
-	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover;
+	overflow: hidden;
+	z-index: 999;
 }
 
 .box-container-wrap {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
-	// top: 50%;
-	// left: 50%;
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	// transform: translateX(-50%);
-	// transform: translateY(-50%);
+	z-index: 1000;
 }
 
 .box-container {

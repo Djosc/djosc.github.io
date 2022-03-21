@@ -6,6 +6,7 @@ import { Section, Heading } from '../components/ProjectSection/ProjectSectionEle
 import ProjectSection from '../components/ProjectSection/ProjectSection';
 import About from '../components/AboutSection/About';
 import Footer from '../components/Footer/Footer';
+import LoadingScreen from '../components/LoadingScreen/LoadingScreen';
 
 import AOS from 'aos';
 import {
@@ -19,9 +20,17 @@ import {
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
+	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
 		AOS.init({ duration: 1000 });
+
+		document.body.style.overflow = 'hidden';
+
+		setTimeout(() => {
+			setLoading(false);
+			document.body.style.overflow = 'unset';
+		}, 3000);
 	}, []);
 
 	const toggle = () => {
@@ -30,6 +39,7 @@ const Home = () => {
 
 	return (
 		<>
+			{loading && <LoadingScreen />}
 			<Sidebar isOpen={isOpen} toggle={toggle} />
 			<Navbar toggle={toggle} />
 			<Main />

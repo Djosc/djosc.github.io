@@ -32,10 +32,6 @@ const ProjectSection = ({
 	dataAOS,
 	firstSection,
 }) => {
-	// useEffect(() => {
-	// 	AOS.init({ duration: 2000 });
-	// }, []);
-
 	const openDemo = () => {
 		const url = liveLink;
 		window.open(url, '_blank');
@@ -57,12 +53,8 @@ const ProjectSection = ({
 	};
 
 	return (
-		// <Section id="projects" dark={dark} className={reverse ? `` : `spacer layer2`}>
-		<div data-aos={dataAOS}>
-			{/* {firstSection ? <Heading>Projects I've Completed</Heading> : <></>} */}
-
+		<>
 			<Container>
-				{/* <ColumnLeft reverse={reverse} dark={dark}> */}
 				<ColumnRight reverse={reverse}>
 					<img src={image} alt="art" />
 				</ColumnRight>
@@ -76,8 +68,6 @@ const ProjectSection = ({
 						<Button to="/" onClick={openGitHub} big="true" primary={primary}>
 							{githubLinkLabel}
 						</Button>
-						{/* </BtnWrap>
-					<BtnWrap> */}
 						{caseStudyBool ? (
 							<Button to="/" onClick={openCaseStudy} big="true" primary={primary}>
 								{caseStudyLinkLabel}
@@ -95,8 +85,7 @@ const ProjectSection = ({
 					</BtnWrap>
 				</ColumnLeft>
 			</Container>
-		</div>
-		// </Section>
+		</>
 	);
 };
 
