@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.479dd36b.css",
-    "main.js": "/static/js/main.752e6c54.js",
+    "main.js": "/static/js/main.fb3318a2.js",
     "static/media/myflix.mp4": "/static/media/myflix.1a99a29e399ea09322f7.mp4",
     "static/media/myFlix-homepage-scrnshot.png": "/static/media/myFlix-homepage-scrnshot.9d70aa79981d858f57c1.png",
     "static/media/myFlix-angular-screenshot.png": "/static/media/myFlix-angular-screenshot.afbeb24f8fd2cef320ed.png",
@@ -11,7 +11,7 @@
     "static/media/Chat-app-functionality.pdf": "/static/media/Chat-app-functionality.a8dce9c24b70c543ff59.pdf",
     "static/media/pokedex screenshot.png": "/static/media/pokedex screenshot.2f3bdddad7a8dc0ae36b.png",
     "static/media/meet-main-scrnshot.png": "/static/media/meet-main-scrnshot.0ecd0ed1e6c0fa468016.png",
-    "static/media/david-caldwell-resume.pdf": "/static/media/david-caldwell-resume.b6b34329d680e4a0df3c.pdf",
+    "static/media/david-caldwell-resume.pdf": "/static/media/david-caldwell-resume.c6e598a4a303203b7821.pdf",
     "static/media/movie-api-screenshot.png": "/static/media/movie-api-screenshot.a7df485eac83e67d3fa6.png",
     "static/media/mongodbIcon.svg": "/static/media/mongodbIcon.6d3d1850f276edfa810f91b6a64e7989.svg",
     "static/media/reactIcon.svg": "/static/media/reactIcon.fdd3331d261ad6d5e1c92448737aa2aa.svg",
@@ -29,10 +29,10 @@
     "static/media/html5Icon.svg": "/static/media/html5Icon.84c6adac417775a66b5529f1ae8d4572.svg",
     "static/media/css3Icon.svg": "/static/media/css3Icon.9882e252f3baf8b8d57642a1384d8ba3.svg",
     "main.479dd36b.css.map": "/static/css/main.479dd36b.css.map",
-    "main.752e6c54.js.map": "/static/js/main.752e6c54.js.map"
+    "main.fb3318a2.js.map": "/static/js/main.fb3318a2.js.map"
   },
   "entrypoints": [
     "static/css/main.479dd36b.css",
-    "static/js/main.752e6c54.js"
+    "static/js/main.fb3318a2.js"
   ]
 }
