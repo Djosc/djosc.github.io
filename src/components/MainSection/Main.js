@@ -36,36 +36,36 @@ const Main = () => {
 					<ImageBg src={bgImage} />
 				</MainBg>
 				<MainContent>
-					<div data-aos="fade-down-left">
-						<MainH1>David Caldwell</MainH1>
-					</div>
-					<div data-aos="fade-down-right">
-						<MainH2>Web Developer</MainH2>
-					</div>
-					<div data-aos="flip-up">
-						<h1 style={{ fontSize: '42px', color: '#fff' }}>
-							<LocationIcon />
-							Dayton, Ohio
-						</h1>
-					</div>
-					<div data-aos="flip-up">
-						<MainBtnWrap>
-							<Button
-								to="projects"
-								spy={true}
-								smooth={true}
-								offset={-60}
-								duration={500}
-								primary={'true'}
-								big={'true'}
-							>
-								See My Projects
-							</Button>
-							<Button big={true} primary={true} onClick={openResume}>
-								View My Resume (PDF)
-							</Button>
-						</MainBtnWrap>
-					</div>
+					{/* <div data-aos="fade-down-left"> */}
+					<MainH1>David Caldwell</MainH1>
+					{/* </div> */}
+					{/* <div data-aos="fade-down-right"> */}
+					<MainH2>Web Developer</MainH2>
+					{/* </div> */}
+					{/* <div data-aos="flip-up"> */}
+					<h1 style={{ fontSize: '36px', color: '#fff' }}>
+						<LocationIcon />
+						Dayton, Ohio
+					</h1>
+					{/* </div> */}
+					{/* <div data-aos="flip-up"> */}
+					<MainBtnWrap>
+						<Button
+							to="projects"
+							spy={true}
+							smooth={true}
+							offset={-60}
+							duration={500}
+							primary={'true'}
+							big={'true'}
+						>
+							See My Projects
+						</Button>
+						<Button big={true} primary={true} onClick={openResume}>
+							View My Resume (PDF)
+						</Button>
+					</MainBtnWrap>
+					{/* </div> */}
 				</MainContent>
 				{/* <ArrowWrap>
 					<DownArrow />

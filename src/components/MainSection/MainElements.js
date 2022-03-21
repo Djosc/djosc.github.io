@@ -142,6 +142,6 @@ export const DownArrow = styled(BsArrowDown)`
 
 export const LocationIcon = styled(BiCurrentLocation)`
 	padding-right: 10px;
-	padding-top: 14px;
+	padding-top: 18px;
 	font-size: 45px;
 `;

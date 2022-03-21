@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 import Home from './pages/Home';
+import LoadingScreen from './components/LoadingScreen/LoadingScreen';
 
 function App() {
-	return (
-		<>
-			<Router>
-				<Home />
-			</Router>
-		</>
-	);
+	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		setTimeout(() => setLoading(false), 3000);
+	}, []);
+
+	return <>{loading === false ? <Home /> : <LoadingScreen />}</>;
 }
 
 export default App;
